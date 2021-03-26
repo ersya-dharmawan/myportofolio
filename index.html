@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Ersya Dharmawan">
+	
+	<title>My Portofolio</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+	<!-- Update these with your own fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <header class="header">
+    <div class="logo">
+      <h3>Devsya</h3>
+    </div>
+
+    <button class="nav-toggle" aria-label="toggle-navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong class="strong">Ersya Dharmawan</strong>
+    </h1>
+
+    <p class="section__subtitle section__subtitle--intro">back-end &amp web dev</p>
+
+    <img src="https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzR8fGRlc2lnbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="intro__img">
+  </section>
+
+  <!-- my services -->
+  <div class="my-services" id="services">
+    <h1 class="section__title section__title--services">What I do</h1>
+
+    <div class="services" id="services">
+      <div class="service">
+        <h3>Website Development</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rerum eligendi beatae delectus commodi cupiditate, esse, maxime odit suscipit ducimus non numquam blanditiis ratione est quae autem. Laudantium, libero nisi?
+        </p>
+      </div><!-- service -->
+
+      <div class="service">
+        <h3>Backend Engineer</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id modi tenetur repudiandae natus ipsa, fugiat optio! Mollitia, enim earum explicabo id commodi, facilis perferendis aut corrupti nobis ab corporis illum?
+        </p>
+      </div><!-- service -->
+
+      <div class="service">
+        <h3>Database Administrator</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus architecto iure magnam, perferendis obcaecati tempora nemo quo autem enim magni consequuntur, quaerat minima laborum, at veritatis id laboriosam? Perferendis, debitis.
+        </p>
+      </div><!-- service -->
+    </div><!-- services -->
+
+      <a href="#work" class="btn">see my work</a>
+  </div>
+
+  <!-- About Me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+
+    <p class="section__subtitle section__subtitle--about">Backend &amp Website developer based out of Jakarta</p>
+
+    <div class="about-me__body">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim incidunt voluptates voluptatem? Ea sed officiis neque animi optio sit. Minus quas aspernatur recusandae doloremque eum esse odit, in optio nisi?
+      </p>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem reiciendis at fugiat doloremque minima! Esse sit impedit aperiam possimus minima explicabo blanditiis ducimus fuga, dolore assumenda, commodi hic corrupti et.
+      </p>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1554497342-902a4f8da8ed?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d2hvJTIwaSUyMGFtfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="a picture of selfie" class="about-me__img">
+  </section>
+
+  <!-- My Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My Work</h2>
+
+    <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+    <div class="portofolio">
+      <!-- Portofolio Item 1 -->
+      <a href="#" class="portofolio__item">
+        <img src="./img/gambar_1.png" alt="Gambar 1" class="portofolio__img">
+      </a>
+
+      <!-- Portofolio Item 2 -->
+      <a href="#" class="portofolio__item">
+        <img src="./img/gambar_2.jpg" alt="Gambar 2" class="portofolio__img">
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class=footer>
+    <a href="mailto:ersyadharmawan11@gmail.com?subject=Feedback&body=Message" class="footer__link">ersyadharmawan11@gmail.com</a>
+
+    <!-- Link Media Social -->
+    <ul class="social-list">
+      <li class="social__list-item"><a href="https://www.linkedin.com/in/ersya-dharmawan-872038136/" class="social-list__link">
+        <i class="fab fa-codepen"></i>
+      </a></li>
+      <li class="social__list-item"><a href="https://codepen.io/Ersya" class="social-list__link">
+        <i class="fab fa-linkedin"></i>
+      </a></li>
+      <li class="social__list-item"><a href="https://github.com/ersya-dharmawan" class="social-list__link">
+        <i class="fab fa-github"></i>
+      </a></li>
+    </ul>
+  </footer>
+    <script src="./script.js"></script>
+ </body>
+</html>
